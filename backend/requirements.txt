@@ -6,8 +6,9 @@ pydantic-settings>=2.6.0
 python-multipart==0.0.6
 pypdf==3.17.1
 python-docx==1.1.0
-sentence-transformers==2.2.2
-faiss-cpu==1.15.1
+# Optional model-backed retrieval:
+# sentence-transformers==2.2.2
+# faiss-cpu==1.15.1
 python-magic-bin==0.4.14
 alembic==1.12.1
 pytest==7.4.3

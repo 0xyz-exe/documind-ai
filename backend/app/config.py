@@ -18,7 +18,7 @@ class Settings(BaseSettings):
     
     # Retrieval
     top_k: int = 5
-    similarity_threshold: float = 0.5
+    similarity_threshold: float = 0.3
     
     # LLM
     llm_provider: str = "demo"
@@ -30,7 +30,7 @@ class Settings(BaseSettings):
     
     # Server
     backend_port: int = 8000
-    allowed_origins: str = "http://localhost:3000"
+    allowed_origins: str = "http://localhost:3001"
     
     # Security
     secret_key: str = "change-me-in-production"

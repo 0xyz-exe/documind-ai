@@ -48,12 +48,23 @@ npm install
 npm run dev
 ```
 
-Frontend: http://localhost:3000
+Frontend: http://localhost:3001
 
 ### Test
 
 ```bash
 curl http://localhost:8000/health
+
+The demo mode supports the complete local flow:
+
+1. Upload a PDF, DOCX, TXT, or MD file from the frontend.
+2. Search indexed text through the search panel or `GET /api/v1/search`.
+3. Ask grounded questions through the Q&A panel or `POST /api/v1/qa/ask`.
+
+The default retrieval implementation is deterministic and offline. It uses
+token overlap/cosine scoring rather than downloading an embedding model, so a
+fresh install works without external services. The embedding settings remain
+available for a future model-backed retriever.
 ```
 
 ## Architecture
