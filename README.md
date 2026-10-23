@@ -2,6 +2,22 @@
 
 Privacy-first document intelligence platform. Upload documents, ask questions, get cited answers.
 
+Repository: https://github.com/0xyz-exe/documind-ai
+
+## Screenshots
+
+### Document Q&A & Grounded Citations
+![Document Q&A](docs/screenshots/01_qa_citations.png)
+
+### Multi-Format Document Ingestion
+![Document ingestion](docs/screenshots/02_upload_documents.png)
+
+### Semantic & Keyword Search Results
+![Search results](docs/screenshots/03_search_results.png)
+
+### Privacy Controls & Local LLM Settings
+![Privacy settings](docs/screenshots/04_privacy_settings.png)
+
 **Status:** Milestone A complete (docs), starting implementation.
 
 ## Features
