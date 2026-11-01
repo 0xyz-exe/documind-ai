@@ -6,16 +6,20 @@ Repository: https://github.com/0xyz-exe/documind-ai
 
 ## Screenshots
 
-### Document Q&A & Grounded Citations
+### 1. Document Q&A & Grounded Citations
+Antarmuka tanya-jawab cerdas berbasis Retrieval-Augmented Generation (RAG) dengan penandaan kutipan bernomor ([1], [2]), skor relevansi persentase, dan panel inspeksi cuplikan teks rujukan:
 ![Document Q&A](docs/screenshots/01_qa_citations.png)
 
-### Multi-Format Document Ingestion
+### 2. Multi-Format Document Ingestion
+Area pengunggahan dokumen multi-format (PDF, DOCX, TXT, Markdown) dengan pemecahan otomatis (chunking), pelacakan progres embedding real-time, serta verifikasi hash integritas:
 ![Document ingestion](docs/screenshots/02_upload_documents.png)
 
-### Semantic & Keyword Search Results
+### 3. Semantic & Keyword Search Results
+Penjelajah pencarian hibrida yang menggabungkan pencarian teks penuh BM25 dengan kemiripan vektor kosinus (Dense Embedding), dilengkapi penyorotan kata kunci dan metadata potongan dokumen:
 ![Search results](docs/screenshots/03_search_results.png)
 
-### Privacy Controls & Local LLM Settings
+### 4. Privacy Controls & Local LLM Settings
+Pengaturan privasi lokal 100% offline dengan konfigurasi model embedding lokal (all-MiniLM-L6-v2), ukuran token chunk, batasan overlap, dan ambang batas minimum skor kosinus:
 ![Privacy settings](docs/screenshots/04_privacy_settings.png)
 
 **Status:** Milestone A complete (docs), starting implementation.
